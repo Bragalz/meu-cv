@@ -11,9 +11,6 @@ body {
     max-width: 200px;
 }
 
-.container {
-    margin-top: 30px;
-}
 
 /* Estilização do formulário */
 .form-container {
@@ -23,4 +20,17 @@ body {
     background: #f8f9fa;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+        display: flex;
+        align-items: center; /* Alinha verticalmente os itens no centro */
+      }
+      img {
+        margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+        
+      }
+
+    p{
+        font-size: 30px;
     }
